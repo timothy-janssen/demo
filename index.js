@@ -8,13 +8,13 @@ app.get('/', function (req, res) {
     res.end(`
         <!doctype html>
         <html>
-         
+
         <body>
          <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
-            channelId="c4e05563-1c31-4402-a4af-36cfb449edc4"
-            token="3e67ada0d49cec0657911fe48d16f8f9"
+            channelId="58e7d997-157a-4587-822e-eb2fdc7ca5a5"
+            token="1ebc7f310ce25d84f564dfd944ed4b08"
             id="cai-webchat"
-            ></script>  
+            ></script>
         </body>
         </html>
     `);

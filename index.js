@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
         <body>
          <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
             channelId="c4e05563-1c31-4402-a4af-36cfb449edc4"
-            token="bc1d61a83d81e55c50143b5de6fb8b01"
+            token="3e67ada0d49cec0657911fe48d16f8f9"
             id="cai-webchat"
             ></script>  
         </body>

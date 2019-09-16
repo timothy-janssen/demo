@@ -3,7 +3,7 @@ const config  	= require('./config');
 
 var app = express();
 
-app.use(express.static());
+app.use(express.static('./'));
 
 app.get('/', function (req, res) {
 

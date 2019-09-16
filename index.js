@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
         <!doctype html>
         <html>
 
-        <body style="background-image:url(https://files.slack.com/files-pri/T7RBBBXHB-FN78M7Q0L/image.png)">
+        <body style="background-image:url(background.png)">
          <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
             channelId="58e7d997-157a-4587-822e-eb2fdc7ca5a5"
             token="1ebc7f310ce25d84f564dfd944ed4b08"

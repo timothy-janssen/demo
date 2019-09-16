@@ -1,7 +1,7 @@
 const express 	= require('express');
 const config  	= require('./config');
 
-const bg = require('./background.png')
+import bg from './background'
 
 var app = express();
 
@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
         <!doctype html>
         <html>
 
-        <body style="background-image:url(background.png)">
+        <body style="background-image:url({bg})">
          <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
             channelId="58e7d997-157a-4587-822e-eb2fdc7ca5a5"
             token="1ebc7f310ce25d84f564dfd944ed4b08"

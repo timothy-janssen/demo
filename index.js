@@ -1,6 +1,8 @@
 const express 	= require('express');
 const config  	= require('./config');
 
+const bg = require('./background.png')
+
 var app = express();
 
 app.get('/', function (req, res) {

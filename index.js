@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 
         <div style="text-align:center;
                     position: absolute;
-                    bottom: 30px;
+                    top: 50px;
                     width: 100%;
                     ">
             <b style="  display:inline-block;

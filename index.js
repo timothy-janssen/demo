@@ -13,13 +13,15 @@ app.get('/', function (req, res) {
 
         <body style="background-image:url(./background.png); background-repeat: no-repeat;background-size: cover;">
 
-        <div style="text-align:center;">
+        <div style="text-align:center;
+                    vertical-align: text-bottom;
+                    ">
             <b style="  display:inline-block; 
                         text-align:center; 
                         color:white; 
                         background-color:red; 
-                        font-size: 15px;
-                        vertical-align: text-bottom;
+                        font-size: 25px;
+                        
                         ">Your challenge: Find 10 sentences I don't understand</b>
         </div>
 

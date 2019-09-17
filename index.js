@@ -14,9 +14,9 @@ app.get('/', function (req, res) {
         <body style="background-image:url(./background.png); background-repeat: no-repeat;background-size: cover;">
 
         <div style="text-align:center;
-                    vertical-align: bottom;
                     position: absolute;
                     bottom: 30px;
+                    width: 100%;
                     ">
             <b style="  display:inline-block;
                         color:white; 

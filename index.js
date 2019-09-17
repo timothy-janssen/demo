@@ -22,6 +22,10 @@ app.get('/', function (req, res) {
                         color:white; 
                         background-color:red; 
                         font-size: 25px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-right: 10px;
+                        padding-left: 10px;
                         
                         ">Your challenge: Find 10 sentences I don't understand</b>
         </div>

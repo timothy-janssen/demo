@@ -40,4 +40,23 @@ app.get('/', function (req, res) {
     `);
 });
 
+
+app.get('/chatbot-breakfast', function (req, res) {
+
+    res.end(`
+<!doctype html>
+<html>
+
+    <body style="background-image:url(./background.png); background-repeat: no-repeat;background-size: cover;">
+         
+        <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
+            channelId="833f1886-7c9b-496d-9952-eaf46d92f942"
+            token="a9d2b226a26742f83f44b52f9a8efb61"
+            id="cai-webchat">
+        </script>
+    </body>
+</html>
+    `);
+});
+
 app.listen(config.PORT, () => console.log(`App started on port ${config.PORT}`)); 

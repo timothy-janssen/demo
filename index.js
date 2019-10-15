@@ -60,7 +60,7 @@ app.get('/chatbot-breakfast', function (req, res) {
 });
 
 
-app.get('/chatbot-breakfast', function (req, res) {
+app.get('/sfsf-chatbot-breakfast', function (req, res) {
 
     res.end(`
 <!doctype html>
